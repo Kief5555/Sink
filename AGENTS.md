@@ -29,4 +29,4 @@ Git history follows Conventional Commits (`fix: adjust analytics filter`, `chore
 
 ## Configuration & Security Tips
 
-Environment variables (e.g., `NUXT_SITE_TOKEN`, KV bindings, Analytics tokens) live in `.env`, while `wrangler.jsonc` defines Worker bindings. Use `pnpm preview` or `wrangler dev --var KEY:VALUE` to inject local secrets. Never commit real credentials—document placeholders in `docs/configuration.md` instead. If Cloudflare resources or binding names change, update both `wrangler` config and the corresponding references under `server/` to avoid deployment regressions.
+Environment variables (e.g., `NUXT_SITE_TOKEN`, KV bindings, Analytics tokens) live in `.env`, while `wrangler.jsonc` defines Worker bindings. Use `pnpm preview` or `wrangler dev --var KEY:VALUE` to inject local secrets. Never commit real credentials—document placeholders in `docs/configuration.md` instead. If Cloudflare resources or binding names change, update both `wrangler` config and the corresponding references under `server/` to avoid deployment regressions. 
